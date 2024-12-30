@@ -1,64 +1,81 @@
-[16:09:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:09:02] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[16:09:06] [ServerMain/INFO]: Loaded 7 recipes
-[16:09:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[16:09:07] [Server thread/INFO]: Loading properties
-[16:09:07] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[16:09:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:09:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:09:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:09:08] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[16:27:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:27:36] [ServerMain/INFO]: Loaded 7 recipes
+[16:27:37] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:27:37] [Server thread/INFO]: Loading properties
+[16:27:37] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[16:27:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:27:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:27:38] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:09:09] [Server thread/INFO]: Default game type: SURVIVAL
-[16:09:09] [Server thread/INFO]: Generating keypair
-[16:09:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:09:09] [Server thread/INFO]: Using epoll channel type
-[16:09:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:09:09] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:09:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:09:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:09:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:09:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:09:09] [Server thread/INFO]: Preparing level "world"
-[16:09:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:09:27] [Server thread/INFO]: Time elapsed: 298 ms
-[16:09:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:09:27] [Server thread/INFO]: Time elapsed: 69 ms
-[16:09:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:09:27] [Server thread/INFO]: Time elapsed: 66 ms
-[16:09:27] [Server thread/INFO]: Running delayed init tasks
-[16:09:27] [Server thread/INFO]: Done (20.237s)! For help, type "help"
-[16:09:27] [Server thread/INFO]: Timings Reset
-[16:11:36] [User Authenticator #0/INFO]: UUID of player J4anPolF is 303cc70c-7f82-3234-b7ad-c27a84cefeae
-[16:11:36] [Server thread/INFO]: J4anPolF joined the game
-[16:11:36] [Server thread/INFO]: J4anPolF[/[0:0:0:0:0:0:0:1%0]:45932] logged in with entity id 531 at ([world]-137.5, 78.0, 122.5)
-[16:11:48] [Server thread/INFO]: Made J4anPolF a server operator
-[16:12:05] [Server thread/INFO]: You whisper to J4anPolF: hola
-[16:12:27] [Server thread/INFO]: Stopping server
-[16:12:27] [Server thread/INFO]: Saving players
-[16:12:27] [Server thread/INFO]: J4anPolF lost connection: Server closed
-[16:12:27] [Server thread/INFO]: J4anPolF left the game
-[16:12:27] [Server thread/INFO]: Saving worlds
-[16:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:12:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:12:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:12:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:12:31] [Server thread/INFO]: [ChunkHolderManager] Saved 2209 block chunks, 625 entity chunks, 11 poi chunks in world 'world' in 3.28s
-[16:12:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:12:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:12:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:12:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:12:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:12:32] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1.48s
-[16:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:12:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:12:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:12:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:12:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:12:34] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 1.24s
-[16:12:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:12:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:12:34] [Server thread/INFO]: Flushing Chunk IO
-[16:12:34] [Server thread/INFO]: Closing Thread Pool
-[16:12:34] [Server thread/INFO]: Closing Server
+[16:27:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:27:38] [Server thread/INFO]: Default game type: SURVIVAL
+[16:27:38] [Server thread/INFO]: Generating keypair
+[16:27:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:27:39] [Server thread/INFO]: Using epoll channel type
+[16:27:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:27:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:27:39] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[16:27:40] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[16:27:40] [Server thread/INFO]: [floodgate] Took 1,133ms to boot Floodgate
+[16:27:40] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[16:27:41] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:27:41] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:27:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:27:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:27:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:27:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:27:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:27:41] [Server thread/INFO]: Preparing level "world"
+[16:27:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:27:43] [Server thread/INFO]: Time elapsed: 431 ms
+[16:27:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:27:43] [Server thread/INFO]: Time elapsed: 200 ms
+[16:27:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:27:43] [Server thread/INFO]: Time elapsed: 127 ms
+[16:27:43] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[16:27:45] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[16:27:45] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:27:45] [Server thread/INFO]: [Geyser-Spigot] 
+[16:27:45] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b739 (git-master-623ec2b)
+[16:27:45] [Server thread/INFO]: [Geyser-Spigot] 
+[16:27:45] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:27:54] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[16:27:54] [Server thread/INFO]: [Geyser-Spigot] Done (8.519s)! Run /geyser help for help!
+[16:27:54] [Server thread/WARN]: [Geyser-Spigot] Your server software does not support the Java version that Geyser requires (1.21.4). Please install ViaVersion (https://ci.viaversion.com/job/ViaVersion/) or update your server software!
+[16:27:54] [Server thread/INFO]: Running delayed init tasks
+[16:27:54] [Server thread/INFO]: Done (17.755s)! For help, type "help"
+[16:27:54] [Server thread/INFO]: Timings Reset
+[16:27:55] [Thread-7/WARN]: [Geyser-Spigot] Missing MC locale file: en_us
+[16:27:55] [Thread-13/INFO]: [Geyser-Spigot] Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
+[16:27:59] [Thread-13/INFO]: [Geyser-Spigot] Minecraft JAR has been successfully downloaded and loaded!
+[16:28:51] [Server thread/INFO]: Stopping server
+[16:28:51] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[16:28:51] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[16:28:51] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[16:28:51] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[16:28:51] [Server thread/INFO]: Saving players
+[16:28:51] [Server thread/INFO]: Saving worlds
+[16:28:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:28:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:28:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:28:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:28:51] [WebSocketConnectReadThread-58/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[16:28:53] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.75s
+[16:28:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:28:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:28:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:28:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:28:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:28:54] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.97s
+[16:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:28:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:28:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:28:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:28:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:28:54] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.34s
+[16:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:28:54] [Server thread/INFO]: Flushing Chunk IO
+[16:28:54] [Server thread/INFO]: Closing Thread Pool
+[16:28:54] [Server thread/INFO]: Closing Server
